@@ -10,3 +10,8 @@ m- 👋 Hi, I’m @msbatin1
 msbatin1/msbatin1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+curl --request GET \
+--url "https://api.github.com/user" \
+--header "Accept: application/vnd.github+json" \
+--header "Authorization: Bearer USER_ACCESS_TOKEN" \
+--header "X-GitHub-Api-Version: 2022-11-28"
